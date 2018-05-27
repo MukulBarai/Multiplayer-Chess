@@ -1,0 +1,10 @@
+
+body{
+  background: #0088cc;
+  margin-top: 30px;
+}
+
+.canvas-wrapper{
+  width: max-content;
+  border: 10px solid white;
+}
