@@ -56,11 +56,11 @@ function setPower(){
   board[boardSize-1][4].piece =  new King(playerOne.color);
   board[boardSize-1][3].piece =  new Queen(playerOne.color);
   board[0][0].piece =  board[0][boardSize-1].piece =  new Rook(playerTwo.color);
-  board[0][1].piece =  board[0][boardSize-2].piece =  new Bishop(playerTwo.color);
-  board[0][2].piece =  board[0][boardSize-3].piece =  new Knight(playerTwo.color);
+  board[0][1].piece =  board[0][boardSize-2].piece =  new Knight(playerTwo.color);
+  board[0][2].piece =  board[0][boardSize-3].piece =  new Bishop(playerTwo.color);
   board[boardSize-1][0].piece =  board[boardSize-1][boardSize-1].piece =  new Rook(playerOne.color);
-  board[boardSize-1][1].piece =  board[boardSize-1][boardSize-2].piece =  new Bishop(playerOne.color);
-  board[boardSize-1][2].piece =  board[boardSize-1][boardSize-3].piece =  new Knight(playerOne.color);
+  board[boardSize-1][1].piece =  board[boardSize-1][boardSize-2].piece =  new Knight(playerOne.color);
+  board[boardSize-1][2].piece =  board[boardSize-1][boardSize-3].piece =  new Bishop(playerOne.color);
 }
 
 function draw(){
