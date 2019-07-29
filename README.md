@@ -1,6 +1,6 @@
 # Multiplayer-Chess-in-js
 
-Play the game here https://mukulbarai.github.io/Multiplayer-Chess/
+[Play the game here](https://mukulbarai.github.io/Multiplayer-Chess/)
 
 <img src="images/Screenshot(16).png">
 <img src="images/Screenshot(20).png">
